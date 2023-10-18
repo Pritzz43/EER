@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 17 22:19:54 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56712 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pom.test.Login_Testcase_Manager.btnTc()'><b>btnTc</b><br>Test class: pom.test.Login_Testcase_Manager<br>Parameters: public void pom.test.Login_Testcase_Manager.btnTc(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>pom.test.Login_Testcase_Manager@9cb8225</td></tr>
+<tr>
+<td title='pom.test.Login_Testcase_Manager.username_tc_01()'><b>username_tc_01</b><br>Test class: pom.test.Login_Testcase_Manager<br>Parameters: City-metro, abcd@123, public void pom.test.Login_Testcase_Manager.username_tc_01(java.lang.String,java.lang.String,java.lang.reflect.Method)</td>
+<td></td>
+<td>12</td>
+<td>pom.test.Login_Testcase_Manager@9cb8225</td></tr>
+<tr>
+<td title='pom.test.AddSingleRecordManager.AddRecord()'><b>AddRecord</b><br>Test class: pom.test.AddSingleRecordManager<br>Parameters: Pritam, 9762272743, pritamshah@gmail.com, 01/08/2023</td>
+<td></td>
+<td>25</td>
+<td>pom.test.AddSingleRecordManager@222a59e6</td></tr>
+</table><p>
+</body>
+</html>
